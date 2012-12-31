@@ -1,6 +1,6 @@
-name: Ñame
+name: Name
 -
-profession: Gräphic Designer
+profession: Graphic Designer
 -
 email: 
 <hi@yourdomain.com>
