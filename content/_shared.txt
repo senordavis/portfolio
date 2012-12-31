@@ -1,6 +1,9 @@
-name: Name
+site-name: photos
 -
-profession: Graphic Designer
+site-author: Mike Davis
 -
-email: 
-<hi@yourdomain.com>
+site-keywords:
+-
+site-description:
+-
+email: <hi@yourdomain.com>

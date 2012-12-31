@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- !META -->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="author" content="Mike Davis" />
+<meta name="date" content="2012" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+
+<!-- !Title -->
+<title>photos | @page-title</title>
+
+
+<!-- !CSS -->
+<link rel="stylesheet" href="../../assets/docs/css/screen.css" type="text/css" media="screen">
+
+
+<!-- !Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
+
+
+<!-- !Scripts -->
+<script src="../../assets/docs/js/modernizr.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<h1 class="col two">
+				<a href="../../">@name</a>
+				<em>@profession</em>
+			</h1>
+			<h2 class="col two">
+				Selected Projects
+				<em>(2001—2009)</em>
+			</h2>
+			<p class="col six"><em> <ul>
+  
+  
+  
+    
+    	<li><a href="../../about/">About</a></li>
+    	
+  
+    
+    	<li><a href="../../contact-me/">Contact details</a></li>
+    	
+  
+
+</ul> </em></p>
+			<hr>
+			<div id="content" class="col seven">
+				<div id="media">
+      	<div class="image">
+		<img src="../../content/4.other/4.mixed-media-project-7/3.jpg" alt="The Mixed Media Project 7" width="560" height="430">
+    
+	</div>
+
+  
+  
+      	<div class="media">
+		<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="540" height="445" >
+			<param name="src" value="../../content/4.other/4.mixed-media-project-7/1.540x445.mov">
+			<param name="autoplay" value="false">
+			<param name="controller" value="true">
+			<embed src="../../content/4.other/4.mixed-media-project-7/1.540x445.mov" width="540" height="445" autoplay="false" controller="true" pluginspage="http://www.apple.com/quicktime/download/"></embed>
+		</object>
+	</div>
+
+  
+  
+      <div class="media">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="560" height="430" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="allowFullScreen" value="false" />
+		<param name="movie" value="../../content/4.other/4.mixed-media-project-7/2.560x430.swf" />
+		<param name="quality" value="high" />
+		<embed src="../../content/4.other/4.mixed-media-project-7/2.560x430.swf" quality="high" width="560" height="430" name="x" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	</object>
+</div>
+
+  
+  
+      	<object width="425" height="344">
+	<param name="movie" value="http://www.youtube.com/v/oU4E6uQmQIg&hl=en&fs=1&rel=0"></param>
+	<param name="allowFullScreen" value="true"></param>
+	<param name="allowscriptaccess" value="always"></param>
+	<embed src="http://www.youtube.com/v/oU4E6uQmQIg&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed>
+</object>
+
+  
+</div>
+			</div>
+			<div class="description col three">
+				<p><a href="../../">The Mixed Media Project 7</a></p>
+				<p><em>2009, Jun–</em></p>
+				<p><em class="background">&ndash; assorted, youtube, vimeo, SWF, VIMEO, mov, mp4, images</em></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			</div>
+			<hr>
+			<p id="footer" class="col six">&copy; Copyright @name 2012 <a class="atom-rss" href="../../?/feed/">RSS</a><br>
+				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): bc88a8273b7aa1743e1daec3f6dd8713 -->

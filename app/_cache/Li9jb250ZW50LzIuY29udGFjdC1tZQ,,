@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<meta name="author" content="Mike Davis" />
+<meta name="date" content="2012" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+<title>photos | @page-title</title>
+
+<link rel="stylesheet" href="../assets/docs/css/stacey.css" type="text/css" media="screen"> 
+<link rel="stylesheet" href="../assets/docs/css/screen.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../assets/docs/css/type.css" type="text/css" media="screen">
+
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
+
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	
+ <script>		 
+	 //ipad and iphone fix
+	
+	 if( (navigator.userAgent.match(/iPhone/i)) ||
+		(navigator.userAgent.match(/Android/i)) ||
+		(navigator.userAgent.match(/iPod/i)) ||
+		(navigator.userAgent.match(/iPad/i)))
+	{
+		$(".menu li a").click(function(){  // we just need to attach a click event listener to provoke iPhone/iPod/iPad's hover event - strange //
+		});
+	}
+</script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<h1 class="col two">
+				<a href="../">@name</a>
+				<em>Graphic Designer</em>
+			</h1>
+			<h2 class="col two">
+				Selected Projects
+				<em>(2001—2009)</em>
+			</h2>
+			<p class="col six"><em>   
+  
+  
+      <a href="../about/">About</a>,
+  
+      <a href="../contact-me/">Contact details</a>,
+  
+ </em></p>
+			<hr>
+			<div id="content" class="col eight">
+				<p class="para col two"><em class="background">&para;</em></p>
+				<div class="description col six">
+					<h2><a href="../">Contact details</a></h2>
+					<div id="media">
+      	<div class="image">
+		<img src="../content/2.contact-me/01.jpg" alt="Contact details" width="440" height="350">
+    
+	</div>
+
+  
+  
+  
+  
+  
+  
+  
+</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat.</p>
+
+<p>I can be contacted at: <a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;">&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;</a>.</p>
+
+				</div>
+			</div>
+			<hr>
+			<p id="footer" class="col six">&copy; Copyright @name 2012 <a class="atom-rss" href="../?/feed/">RSS</a><br>
+				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 24265a0d07384b1245b5a6241bec07bc -->

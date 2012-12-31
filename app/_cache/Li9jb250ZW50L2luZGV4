@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- !META -->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="author" content="Mike Davis" />
+<meta name="date" content="2012" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+
+<!-- !Title -->
+<title>photos | Home</title>
+
+
+<!-- !CSS -->
+<link rel="stylesheet" href="./assets/docs/css/screen.css" type="text/css" media="screen">
+
+
+<!-- !Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
+
+
+<!-- !Scripts -->
+<script src="./assets/docs/js/modernizr.js"></script>
+	</head>
+	
+	<body>
+		
+		<header>
+
+			<h1><a href="./">photos</a></h1>
+			
+			<ul>
+  
+  
+  
+    
+    	<li><a href="./about/">About</a></li>
+    	
+  
+    
+    	<li><a href="./contact/">Contact</a></li>
+    	
+  
+
+</ul>
+			
+		</header>
+	
+		<section class="project-list">
+			
+			         	<article>
+    		<div class="thumbnail">
+    			<a href="./print/project-1/"><img src="./content/6.print/10.project-1/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./print/project-1/">The Test Project 1</a></p>
+    			<p><em>2009, Jan–</em></p>
+    			<p><em class="background">&ndash; magazine, illustration, sneakers, nike</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./print/project-name-2/"><img src="./content/6.print/9.project-name-2/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./print/project-name-2/">...Project 2</a></p>
+    			<p><em>2009, Feb–</em></p>
+    			<p><em class="background">&ndash; <p>typeface, modular, display face, unreleased, typography, experiment</p>
+</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./print/project-name-3/"><img src="./content/6.print/8.project-name-3/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./print/project-name-3/">The Test Project 3</a></p>
+    			<p><em>2009, Aug–</em></p>
+    			<p><em class="background">&ndash; print, promotion, program, photography, found objects, performance, theatre</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./print/project-name-8/"><img src="./content/6.print/3.project-name-8/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./print/project-name-8/">The Test Project 8</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, photography, party, flyer, promotion</em></p>
+    		</div>
+-->
+    	</article>
+    
+           	<article>
+    		<div class="thumbnail">
+    			<a href="./web/project-1/"><img src="./content/5.web/10.project-1/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./web/project-1/">The Test Project 1</a></p>
+    			<p><em>2009, Jan–</em></p>
+    			<p><em class="background">&ndash; magazine, illustration, sneakers, nike</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./web/project-name-2/"><img src="./content/5.web/9.project-name-2/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./web/project-name-2/">...Project 2</a></p>
+    			<p><em>2009, Feb–</em></p>
+    			<p><em class="background">&ndash; <p>typeface, modular, display face, unreleased, typography, experiment</p>
+</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./web/project-name-6/"><img src="./content/5.web/5.project-name-6/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./web/project-name-6/">The Longer Project Name 6</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, opulent, party, flyer, A3, junk, collection</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./web/project-name-9/"><img src="./content/5.web/2.project-name-9/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./web/project-name-9/">Project 9</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, promotion, performance, theatre, casino, simulacrum</em></p>
+    		</div>
+-->
+    	</article>
+    
+           	<article>
+    		<div class="thumbnail">
+    			<a href="./other/project-name-3/"><img src="./content/4.other/8.project-name-3/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./other/project-name-3/">The Test Project 3</a></p>
+    			<p><em>2009, Aug–</em></p>
+    			<p><em class="background">&ndash; print, promotion, program, photography, found objects, performance, theatre</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./other/project-name-6/"><img src="./content/4.other/5.project-name-6/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./other/project-name-6/">The Longer Project Name 6</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, opulent, party, flyer, A3, junk, collection</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./other/project-name-8/"><img src="./content/4.other/3.project-name-8/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./other/project-name-8/">The Test Project 8</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, photography, party, flyer, promotion</em></p>
+    		</div>
+-->
+    	</article>
+        	<article>
+    		<div class="thumbnail">
+    			<a href="./other/project-name-9/"><img src="./content/4.other/2.project-name-9/thumb.jpg" alt=""></a>
+    		</div>
+    		<!--
+<div class="summary col two">
+    			<p><a href="./other/project-name-9/">Project 9</a></p>
+    			<p><em>2009, Jun–</em></p>
+    			<p><em class="background">&ndash; print, poster, promotion, performance, theatre, casino, simulacrum</em></p>
+    		</div>
+-->
+    	</article>
+    
+    
+			
+		</section>
+		
+		<footer>
+			
+			<p id="footer" class="col six">&copy; Copyright photos 2012 <a class="atom-rss" href="./?/feed/">RSS</a><br>
+
+<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
+				
+		</footer>
+		
+	</body>
+	
+</html>
+<!-- Stacey(2.3.0): 5d0895f1f157b598c27a09aaf9ec6c49 -->

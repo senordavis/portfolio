@@ -1,3 +1,3 @@
-page_description: A collection of Ñame's graphic design work
+page-description: A collection of Ñame's graphic design work
 -
-title: Home
+page-title: Home
