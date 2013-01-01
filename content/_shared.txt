@@ -1,4 +1,4 @@
-site-name: photos
+site-name: portfolio
 -
 site-author: Mike Davis
 -

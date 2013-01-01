@@ -37,6 +37,7 @@ a { text-decoration: none; }
 body {
 	padding: 0;
 	margin: 0;
+	background: url(../../images/bright_squares.png) fixed;
 }
 
 header {
@@ -44,7 +45,6 @@ header {
 	height: 100%;
 	padding: 20px;
 	position: fixed;
-	background-color: @yellow;
 	z-index: 200;	
 
 	ul {
@@ -55,24 +55,36 @@ header {
 }
 
 section {
-	height: 100%;
-	padding: 0;
+	
+}
+
+.feature {
 	margin-left: 320px;
-	position: absolute;
-	right: 0;
-	z-index: 100;
+	padding: 20px;
+	height: 240px;
+	background-color: aqua;
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+	border: 1px solid white;
 }
 
 .project-list {
+	height: 100%;
+	padding: 0;
+	padding-top: 240px;
+	margin-left: 320px;
+	margin-right: 0;
+	right: 0;
+	position: relative;
+	z-index: 100;
 	
 	article {
-		width: 25%;
 		padding: 0;
 		margin: 0;
 		float: left;
-		background-color: @blue;
 		border: solid white;
-		border-width: 0px 1px 1px 0px;
+		border-width: 0px 0px 1px 1px;
 		overflow: hidden;
 		text-align: center;
 		
@@ -99,10 +111,9 @@ section {
 }
 
 footer {
-	float: left;
-	position: fixed;
+	clear: both;
+	margin-left: 320px;
 	padding: 20px;
-	top: 200px;
 	font-size: 70%;
 	z-index: 300;
 }
@@ -110,3 +121,24 @@ footer {
 a img { border: 0px; }
 
 a.atom-rss { margin: 0px 0px 0px 6px; padding: 2px 3px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }
+
+
+@media screen
+and (min-width: 600px) {
+	.project-list article {width: 100%;}
+}
+
+@media screen
+and (min-width: 720px) {
+	.project-list article {width: 50%;}
+}
+
+@media screen
+and (min-width: 1024px) {
+	.project-list article {width: 33.33%;}
+}
+
+@media screen
+and (min-width:1380px) {
+	.project-list article {width: 25%;}
+}

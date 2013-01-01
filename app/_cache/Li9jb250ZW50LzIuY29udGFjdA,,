@@ -59,8 +59,13 @@
 			<div id="content" class="col eight">
 				<p class="para col two"><em class="background">&para;</em></p>
 				<div class="description col six">
-					<h2><a href="./">About</a></h2>
+					<h2><a href="./">Contact</a></h2>
 					<div id="media">
+      	<div class="image">
+		<img src="./content/2.contact/01.jpg" alt="Contact" width="440" height="350">
+    
+	</div>
+
   
   
   
@@ -69,9 +74,9 @@
   
   
 </div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat. Vestibulum vulputate, erat a eleifend consequat, ipsum augue tincidunt sem, ac aliquet nibh magna nec nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum mattis tellus nec tortor blandit a tempor odio mollis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat.</p>
 
-<p>Nam ligula purus, fringilla ut accumsan non, sagittis id mi. Donec risus felis, hendrerit quis rhoncus egestas, laoreet non mi. Fusce in lorem non ipsum gravida lobortis a ut justo. Nam varius aliquet velit id viverra. Nunc bibendum mi ut ipsum blandit ultrices. Donec justo metus, varius id iaculis sed, ultricies lobortis eros. Curabitur sapien tortor, tempus sed varius sit amet, tempus a dui. Donec pharetra nibh et risus tincidunt molestie. Vivamus luctus posuere quam. Aliquam erat volutpat. Vivamus a neque at turpis hendrerit egestas quis vitae nisl.</p>
+<p>I can be contacted at: <a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;">&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;</a>.</p>
 
 				</div>
 			</div>
@@ -81,4 +86,4 @@
 		</div>
 	</body>
 </html>
-<!-- Stacey(2.3.0): 1a0ca35ac026d361ea405cec497708c5 -->
+<!-- Stacey(2.3.0): 010794de8da073476f14bb57070e07ad -->

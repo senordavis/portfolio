@@ -33,35 +33,45 @@ a {
 body {
   padding: 0;
   margin: 0;
+  background: url(../../images/bright_squares.png) fixed;
 }
 header {
   width: 320px;
   height: 100%;
   padding: 20px;
   position: fixed;
-  background-color: #e5e366;
   z-index: 200;
 }
 header ul {
   list-style-type: none;
   padding: 0;
 }
-section {
+.feature {
+  margin-left: 320px;
+  padding: 20px;
+  height: 240px;
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  border: 1px solid white;
+}
+.project-list {
   height: 100%;
   padding: 0;
+  padding-top: 240px;
   margin-left: 320px;
-  position: absolute;
+  margin-right: 0;
   right: 0;
+  position: relative;
   z-index: 100;
 }
 .project-list article {
-  width: 25%;
   padding: 0;
   margin: 0;
   float: left;
-  background-color: #002c43;
   border: solid white;
-  border-width: 0px 1px 1px 0px;
+  border-width: 0px 0px 1px 1px;
   overflow: hidden;
   text-align: center;
 }
@@ -80,10 +90,9 @@ section {
   vertical-align: bottom;
 }
 footer {
-  float: left;
-  position: fixed;
+  clear: both;
+  margin-left: 320px;
   padding: 20px;
-  top: 200px;
   font-size: 70%;
   z-index: 300;
 }
@@ -96,4 +105,24 @@ a.atom-rss {
   font-size: 0.93em;
   letter-spacing: 0.08em;
   background: #ddd;
+}
+@media screen and (min-width: 600px) {
+  .project-list article {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .project-list article {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project-list article {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 1380px) {
+  .project-list article {
+    width: 25%;
+  }
 }
