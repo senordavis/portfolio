@@ -1,6 +1,6 @@
 site-name: portfolio
 -
-site-author: Mike Davis
+site-author: Kristina Moore
 -
 site-keywords:
 -

@@ -1,17 +1,17 @@
 /* Colours */
-body,
-a {
-  color: #222;
-}
-a {
-  color: #002c43;
-}
 /* LESS Styles */
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
 /* !Typography */
 body,
 input {
   font-family: "Helvetica", helvetica, "Helvetica Neue", arial, sans-serif;
   font-size: 16px;
+  color: #222;
 }
 ul li,
 p,
@@ -30,41 +30,101 @@ a {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+::selection {
+  background-color: DeepPink;
+  color: white;
+}
 body {
   padding: 0;
   margin: 0;
   background: url(../../images/bright_squares.png) fixed;
+  font-family: 'Raleway', sans-serif;
 }
 header {
-  width: 320px;
-  height: 100%;
-  padding: 20px;
+  width: 100%;
+  height: 112px;
   position: fixed;
+  top: 0;
   z-index: 200;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.5);
 }
-header ul {
-  list-style-type: none;
+header h1 {
+  float: left;
+  margin-left: 10%;
+  margin-top: 0;
   padding: 0;
+  line-height: 112px;
+}
+header h1 a {
+  color: DeepPink;
+}
+header nav {
+  float: right;
+  margin: 0;
+  margin-right: 10%;
+  padding: 0;
+  height: 112px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  background-color: DeepPink;
+  padding: 10px;
+  margin: 0;
+  margin-left: 20px;
+  line-height: 112px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(http://mdavis.in/testing/scfe/public/docs/pie/PIE.htc);
+}
+header nav ul li a {
+  color: white;
 }
 .feature {
-  margin-left: 320px;
-  padding: 20px;
-  height: 240px;
-  background-color: aqua;
-  position: fixed;
   width: 100%;
+  height: 400px;
+  position: fixed;
+  top: 0;
+  background-color: DeepPink;
   z-index: 50;
-  border: 1px solid white;
+}
+.feature .intro {
+  margin: 150px 10% 0 10%;
+  color: white;
+}
+.feature .intro p {
+  margin: 0;
+}
+.feature .intro .name {
+  margin-left: 2%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 5px;
+}
+.feature-scroll {
+  width: 100%;
+  height: 400px;
+  top: 0;
+  margin-bottom: -12s 0px;
+  background-color: DeepPink;
+  z-index: 50;
 }
 .project-list {
-  height: 100%;
+  width: 100%;
   padding: 0;
-  padding-top: 240px;
-  margin-left: 320px;
-  margin-right: 0;
-  right: 0;
+  margin: 0;
+  margin-top: 360px;
   position: relative;
   z-index: 100;
+  min-height: 100%;
+  border-top: 1px solid white;
 }
 .project-list article {
   padding: 0;
@@ -75,6 +135,9 @@ header ul {
   overflow: hidden;
   text-align: center;
 }
+.project-list article .thumbnail {
+  background-color: black;
+}
 .project-list article .thumbnail a {
   margin: 0;
   padding: 0;
@@ -83,46 +146,109 @@ header ul {
 }
 .project-list article .thumbnail img {
   width: 400px;
+  min-width: 100%;
   max-width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
   vertical-align: bottom;
 }
+#content {
+  margin: 150px 10%;
+}
 footer {
   clear: both;
-  margin-left: 320px;
-  padding: 20px;
-  font-size: 70%;
+  margin: 0 10%;
+  padding: 20px 0 0;
+  font-size: 80%;
   z-index: 300;
+  height: 350px;
+}
+footer section {
+  float: left;
+  width: 65%;
+}
+footer .credits {
+  border-top: 1px solid #888;
+  padding-top: 5px;
+  float: left;
+  font-size: 88%;
+  width: 60%;
+}
+footer .credits a {
+  color: DeepPink;
+}
+footer .credits a:hover {
+  color: DeepPink;
+}
+/* !Other Styles */
+p.favoritethings-no {
+  display: none;
+}
+a {
+  color: #002c43;
 }
 a img {
   border: 0px;
 }
 a.atom-rss {
   margin: 0px 0px 0px 6px;
-  padding: 2px 3px 0px;
+  padding: 5px;
+  float: right;
   font-size: 0.93em;
   letter-spacing: 0.08em;
-  background: #ddd;
+  background: DeepPink;
+  color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(http://mdavis.in/testing/scfe/public/docs/pie/PIE.htc);
 }
-@media screen and (min-width: 600px) {
+/* !Media Queries for Layout */
+@media screen and (min-width: 320px) {
   .project-list article {
     width: 100%;
+  }
+  .intro p.favoritethings-yes {
+    font-size: 125%;
+  }
+  .intro p.name {
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .project-list article {
+    width: 50%;
+  }
+  .intro p.favoritethings-yes {
+    font-size: 150%;
+  }
+  .intro p.name {
+    font-size: 150%;
   }
 }
 @media screen and (min-width: 720px) {
   .project-list article {
-    width: 50%;
+    width: 33.33%;
+  }
+  .intro p.favoritethings-yes {
+    font-size: 175%;
   }
 }
 @media screen and (min-width: 1024px) {
   .project-list article {
-    width: 33.33%;
+    width: 25%;
+  }
+  .intro p.favoritethings-yes {
+    font-size: 200%;
   }
 }
 @media screen and (min-width: 1380px) {
   .project-list article {
-    width: 25%;
+    width: 20%;
+  }
+  .intro p.favoritethings-yes {
+    font-size: 250%;
   }
 }

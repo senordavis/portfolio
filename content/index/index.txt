@@ -1,3 +1,5 @@
-page-description: A collection of Ñame's graphic design work
+page-description: @site-description
 -
 page-title: Home
+-
+favoritethings:yes

@@ -59,19 +59,19 @@
 			<div id="content" class="col seven">
 				<div id="media">
       	<div class="image">
-		<img src="./content/6.print/9.project-name-2/04.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/8.project-name-3/04.jpg" alt="The Test Project 3" width="540" height="430">
     
 	</div>
 	<div class="image">
-		<img src="./content/6.print/9.project-name-2/03.jpg" alt="...Project 2" width="540" height="450">
+		<img src="./content/6.print/8.project-name-3/03.jpg" alt="The Test Project 3" width="540" height="450">
     
 	</div>
 	<div class="image">
-		<img src="./content/6.print/9.project-name-2/02.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/8.project-name-3/02.jpg" alt="The Test Project 3" width="540" height="430">
     
 	</div>
 	<div class="image">
-		<img src="./content/6.print/9.project-name-2/01.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/8.project-name-3/01.jpg" alt="The Test Project 3" width="540" height="430">
     
 	</div>
 
@@ -85,10 +85,9 @@
 </div>
 			</div>
 			<div class="description col three">
-				<p><a href="./">...Project 2</a></p>
-				<p><em>2009, Feb–</em></p>
-				<p><em class="background">&ndash; <p>typeface, modular, display face, unreleased, typography, experiment</p>
-</em></p>
+				<p><a href="./">The Test Project 3</a></p>
+				<p><em>2009, Aug–</em></p>
+				<p><em class="background">&ndash; print, promotion, program, photography, found objects, performance, theatre</em></p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			</div>
@@ -98,4 +97,4 @@
 		</div>
 	</body>
 </html>
-<!-- Stacey(2.3.0): fa836dcd6017a134846b87cc89e4b3b1 -->
+<!-- Stacey(2.3.0): d085477a5a4a89fa814059aef10910b0 -->

@@ -2,11 +2,12 @@
 	"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
+	
 		<!-- !META -->
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<meta name="author" content="Mike Davis" />
+<meta name="author" content="Kristina Moore" />
 <meta name="date" content="2012" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -29,17 +30,27 @@
 
 <script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
 <script src="./assets/docs/js/modernizr.js"></script>
-		
-		
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.get('./content/_favoritethings.txt', function (data) {
+            var quotes = data.split(";");
+            var idx = Math.floor(quotes.length * Math.random());
+            $('.favoritethings-yes').html(quotes[idx]);
+        });
+    });
+</script>
+	
 	</head>
 	
 	<body>
 		
 		<header>
-
-			<h1><a href="./">portfolio</a></h1>
 			
-			<ul>
+				<h1><a href="./">portfolio</a></h1>
+				
+				<nav>
+					<ul>
   
   
   
@@ -53,11 +64,17 @@
   
 
 </ul>
-			
+				</nav>
+						
 		</header>
 		
 		<section class="feature">
-			something
+			
+			<div class="intro">
+				<p class="name">Hello, my name is <strong>Kristina Moore</strong>.</p>
+				<p class="favoritethings-yes"></p>
+			</div> 
+			
 		</section>
 	
 		<section class="project-list">
@@ -217,13 +234,23 @@
 		
 		<footer>
 			
-			<p id="footer" class="col six">&copy; Copyright portfolio 2013 <a class="atom-rss" href="./?/feed/">RSS</a><br>
+			<section>
 
-<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
+	<p class="copyright">Copyright &copy; 2013, Kristina Moore, All Rights Reserved.</p>
 				
+
+	
+	<p class="credits">
+	<strong>Credits:</strong> Content managed by <a href="http://www.staceyapp.com">Stacey 2.3.0</a>. Slideshows throughout the site use the <a href="http://backflip.github.com/jquery-carousel/">backflip/jQuery Carousel</a>. This theme was built using <a href="http://panic.com/coda/">Coda 2</a>, <a href="http://incident57.com/codekit/">Codekit</a>, CSS3, HTML5, and <a href="http://lesscss.org/">LESS</a>. Theme Designed by <a href="#">Mike Davis</a>.
+	</p>
+
+</section>
+
+<a class="atom-rss" href="./?/feed/">RSS</a>
+						
 		</footer>
 		
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): 1a0ca35ac026d361ea405cec497708c5 -->
+<!-- Stacey(2.3.0): fdf4e0a6fa958a6b79b588be892b2008 -->

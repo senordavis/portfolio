@@ -2,11 +2,12 @@
 	"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
+	
 		<!-- !META -->
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<meta name="author" content="Mike Davis" />
+<meta name="author" content="Kristina Moore" />
 <meta name="date" content="2012" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -29,19 +30,27 @@
 
 <script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
 <script src="./assets/docs/js/modernizr.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.get('./content/_favoritethings.txt', function (data) {
+            var quotes = data.split(";");
+            var idx = Math.floor(quotes.length * Math.random());
+            $('.favoritethings-yes').html(quotes[idx]);
+        });
+    });
+</script>
+	
 	</head>
 	
 	<body>
-		<div id="container">
-			<h1 class="col two">
-				<a href="./">@name</a>
-				<em>@profession</em>
-			</h1>
-			<h2 class="col two">
-				Selected Projects
-				<em>(2001—2009)</em>
-			</h2>
-			<p class="col six"><em> <ul>
+		
+		<header>
+			
+				<h1><a href="./">portfolio</a></h1>
+				
+				<nav>
+					<ul>
   
   
   
@@ -54,13 +63,17 @@
     	
   
 
-</ul> </em></p>
-			<hr>
-			<div id="content" class="col eight">
-				<p class="para col two"><em class="background">&para;</em></p>
-				<div class="description col six">
-					<h2><a href="./">About</a></h2>
-					<div id="media">
+</ul>
+				</nav>
+						
+		</header>
+
+	
+		<section id="content">
+		
+			<h2><a href="./">About</a></h2>
+			
+			<div id="media">
   
   
   
@@ -69,16 +82,34 @@
   
   
 </div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat. Vestibulum vulputate, erat a eleifend consequat, ipsum augue tincidunt sem, ac aliquet nibh magna nec nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum mattis tellus nec tortor blandit a tempor odio mollis.</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat. Vestibulum vulputate, erat a eleifend consequat, ipsum augue tincidunt sem, ac aliquet nibh magna nec nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum mattis tellus nec tortor blandit a tempor odio mollis.</p>
 
 <p>Nam ligula purus, fringilla ut accumsan non, sagittis id mi. Donec risus felis, hendrerit quis rhoncus egestas, laoreet non mi. Fusce in lorem non ipsum gravida lobortis a ut justo. Nam varius aliquet velit id viverra. Nunc bibendum mi ut ipsum blandit ultrices. Donec justo metus, varius id iaculis sed, ultricies lobortis eros. Curabitur sapien tortor, tempus sed varius sit amet, tempus a dui. Donec pharetra nibh et risus tincidunt molestie. Vivamus luctus posuere quam. Aliquam erat volutpat. Vivamus a neque at turpis hendrerit egestas quis vitae nisl.</p>
 
-				</div>
-			</div>
-			<hr>
-			<p id="footer" class="col six">&copy; Copyright @name 2013 <a class="atom-rss" href="./?/feed/">RSS</a><br>
-				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
-		</div>
+
+		</section>
+
+
+		<footer>
+			
+			<section>
+
+	<p class="copyright">Copyright &copy; 2013, Kristina Moore, All Rights Reserved.</p>
+				
+
+	
+	<p class="credits">
+	<strong>Credits:</strong> Content managed by <a href="http://www.staceyapp.com">Stacey 2.3.0</a>. Slideshows throughout the site use the <a href="http://backflip.github.com/jquery-carousel/">backflip/jQuery Carousel</a>. This theme was built using <a href="http://panic.com/coda/">Coda 2</a>, <a href="http://incident57.com/codekit/">Codekit</a>, CSS3, HTML5, and <a href="http://lesscss.org/">LESS</a>. Theme Designed by <a href="#">Mike Davis</a>.
+	</p>
+
+</section>
+
+<a class="atom-rss" href="./?/feed/">RSS</a>
+						
+		</footer>
+		
 	</body>
+	
 </html>
-<!-- Stacey(2.3.0): 1a0ca35ac026d361ea405cec497708c5 -->
+<!-- Stacey(2.3.0): fdf4e0a6fa958a6b79b588be892b2008 -->

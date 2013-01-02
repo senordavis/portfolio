@@ -2,33 +2,44 @@
 	"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
+	
 		:head
+	
 	</head>
 	
 	<body>
-		<div id="container">
-			<h1 class="col two">
-				<a href="@root_path">@name</a>
-				<em>@profession</em>
-			</h1>
-			<h2 class="col two">
-				Selected Projects
-				<em>(2001—2009)</em>
-			</h2>
-			<p class="col six"><em> :pages </em></p>
-			<hr>
-			<div id="content" class="col seven">
-				:media
-			</div>
-			<div class="description col three">
-				<p><a href="@root_path/">@title</a></p>
-				<p><em>@date</em></p>
-				<p><em class="background">&ndash; @keywords</em></p>
-				@content
-			</div>
-			<hr>
-			<p id="footer" class="col six">&copy; Copyright @name @current_year <a class="atom-rss" href="@root_path/?/feed/">RSS</a><br>
-				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></p>
-		</div>
+		
+		<header>
+			
+				<h1><a href="./">@site-name</a></h1>
+				
+				<nav>
+					:pages
+				</nav>
+						
+		</header>
+		
+		<section class="feature-scroll">
+		
+		</section>
+	
+		<section id="content">
+		
+			<h2><a href="@root_path">@title</a></h2>
+			
+			:media
+			
+			@content
+
+		</section>
+
+
+		<footer>
+			
+			:footer
+						
+		</footer>
+		
 	</body>
+	
 </html>

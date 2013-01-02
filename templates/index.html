@@ -2,23 +2,30 @@
 	"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
+	
 		:head
-		
-		
+	
 	</head>
 	
 	<body>
 		
 		<header>
-
-			<h1><a href="./">@site-name</a></h1>
 			
-			:pages
-			
+				<h1><a href="./">@site-name</a></h1>
+				
+				<nav>
+					:pages
+				</nav>
+						
 		</header>
 		
 		<section class="feature">
-			something
+			
+			<div class="intro">
+				<p class="name">Hello, my name is <strong>@site-author</strong>.</p>
+				<p class="favoritethings-@favoritethings"></p>
+			</div> 
+			
 		</section>
 	
 		<section class="project-list">
@@ -30,7 +37,7 @@
 		<footer>
 			
 			:footer
-				
+						
 		</footer>
 		
 	</body>
