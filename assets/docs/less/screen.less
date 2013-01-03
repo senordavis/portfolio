@@ -17,7 +17,6 @@
 	-moz-border-radius: @radius;
 	-o-border-radius: @radius;
 	border-radius: @radius;
-	behavior: url(http://mdavis.in/testing/scfe/public/docs/pie/PIE.htc);
 }
 
 
@@ -41,6 +40,7 @@ h1, h2 {
 a { text-decoration: none; }
 
 /* !Layout */
+
 
 * {
 	box-sizing: border-box;
@@ -91,15 +91,22 @@ header {
 			
 			li {
 				display: inline;
-				background-color: @themecolor;
-				padding: 10px;
 				margin: 0;
 				margin-left: 20px;
 				line-height: 112px;
-				.roundedcorners(4px);
 				
 				a {
 					color: white;
+					background-color: @themecolor;
+					padding: 10px;
+					.roundedcorners(4px);
+				}
+				
+				a:hover {
+					color: white;
+					background-color: darken(@themecolor, 20%);
+					padding: 10px;
+					.roundedcorners(4px);
 				}
 			}
 		}
@@ -141,7 +148,7 @@ section {
 	width: 100%;
 	height: 400px;
 	top:0;
-	margin-bottom: -12s0px;
+	margin-bottom: -120px;
 	background-color: @themecolor;
 	z-index: 50;
 }
@@ -150,11 +157,13 @@ section {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	margin-top: 360px;
+	margin-top: 400px;
 	position: relative;
 	z-index: 100;
 	min-height: 100%;
 	border-top: 1px solid white;
+	border-left: 1px solid white;
+	background-color: white;
 	
 	article {
 		padding: 0;
@@ -188,8 +197,16 @@ section {
 	}
 }
 
+.clear {
+	clear: both;
+}
+
 #content {
 	margin: 150px 10%;
+	
+	h2 {
+		font-size: 250%;
+	}
 }
 
 footer {
@@ -230,7 +247,7 @@ footer {
 
 p.favoritethings-no { display: none;}
 
-a {color: @blue;}
+a {color: @bluebird;}
 
 a img { border: 0px; }
 
