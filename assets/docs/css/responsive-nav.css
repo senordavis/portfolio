@@ -1,0 +1,102 @@
+/*! responsive-nav.js 1.0.32 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dotted white;
+}
+
+.nav-collapse li a {
+	padding: 0;
+	margin: 0;
+	padding-right: 10%;
+	background-color: transparent;
+}
+
+.nav-collapse li a:hover {
+	padding: 0;
+	margin: 0;
+	padding-right: 10%;
+	background-color: transparent;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  min-height: 9999px;
+  max-height: 9999px;
+  
+  width: 100%;
+  top: -50px;
+  left: 0px;
+  margin-right: 0;
+  text-align: right;
+}
+
+.nav-collapse.opened {
+	width: 100%;
+	top: -20px;
+	left: 0px;
+	margin-right: 0;
+}
+
+.nav-collapse.closed {
+	width: 100%;
+	top: -20px;
+	left: 0px;
+	margin-right: 0;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 640px) {
+	nav {
+		height: 100%;
+	}
+
+  .nav-collapse li {
+  width: 100%;
+  display: inline;
+}
+  
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

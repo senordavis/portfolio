@@ -9,17 +9,16 @@
 	
 	<body>
 		
-		<header>
-			
+		<header class="column full">
 				<h1><a href="./">@site-name</a></h1>
 				
-				<nav>
+				<nav class="nav-collapse">
 					:pages
-				</nav>
-						
+					
+				</nav>		
 		</header>
 		
-		<section class="feature">
+		<section class="feature column full">
 			
 			<div class="intro">
 				<p class="name">Hello, my name is <strong>@site-author</strong>.</p>
@@ -36,11 +35,15 @@
 			
 		</section>
 		
-		<footer>
+		<footer class="column full">
 			
 			:footer
 						
 		</footer>
+		
+		<script>
+      var navigation = responsiveNav(".nav-collapse");
+    </script>
 		
 	</body>
 	

@@ -19,12 +19,28 @@
 	border-radius: @radius;
 }
 
+/* Utility Styles */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
 
 /* !Typography */
 
 body, input {
-	font-family: "Helvetica", helvetica, "Helvetica Neue", arial, sans-serif;
+	.raleway;
 	font-size:    16px;
+	background: url(../../images/bright_squares.png) fixed;
 	color: #222;
 }
 	
@@ -52,7 +68,6 @@ a { text-decoration: none; }
 body {
 	padding: 0;
 	margin: 0;
-	background: url(../../images/bright_squares.png) fixed;
 	.raleway;
 }
 
@@ -75,6 +90,20 @@ header {
 		a {
 			color: @themecolor;
 		}	
+	}
+	
+	.nav-toggle {
+		float: right;
+		margin-right: 10%;
+		margin-top: 36px;
+		color: white;
+		background-color: @themecolor;
+		padding: 10px;
+		.roundedcorners(4px);	
+	}
+	
+	.nav-collapse.opened {
+		background-color: @themecolor;	
 	}
 	
 	nav {
@@ -121,18 +150,21 @@ section {
 .feature {
 	width: 100%;
 	height: 400px;
-	position: fixed;
+	position: absolute;
 	top:0;
 	background-color: @themecolor;
-	z-index: 50;
+	z-index: 0;
 	
 	.intro {
-		margin: 150px 10% 0 10%;
-		color: white;
+		margin-top: 150px;
+		text-align: center;
+		
 		
 						
 		p {
-			margin: 0;
+			color: white;
+			max-width: 40rem;
+			margin: 0 auto;
 		}
 		
 		.name {
@@ -169,8 +201,9 @@ section {
 		padding: 0;
 		margin: 0;
 		float: left;
+		box-sizing: border-box;
 		border: solid white;
-		border-width: 0px 0px 1px 1px;
+		border-width: 1px;
 		overflow: hidden;
 		text-align: center;
 		
@@ -184,7 +217,6 @@ section {
 			}
 		
 			img{
-				width: 400px;
 				min-width: 100%;
 				max-width: 100%;
 				height: auto;
@@ -214,8 +246,10 @@ footer {
 	margin: 0 10%;
 	padding: 20px 0 0;
 	font-size: 80%;
+	position: relative;
 	z-index: 300;
 	height: 350px;
+
 	
 	section {
 		float: left;
@@ -262,6 +296,9 @@ a.atom-rss {
 	.roundedcorners(4px);
 }
 
+
+
+
 /* !Media Queries for Layout */
 
 @media screen
@@ -273,7 +310,7 @@ and (min-width: 320px) {
 
 
 @media screen
-and (min-width: 500px) {
+and (min-width: 640px) {
 	.project-list article {width: 50%;}
 	.intro p.favoritethings-yes {font-size: 150%;}
 	.intro p.name {font-size: 150%;}
@@ -281,7 +318,7 @@ and (min-width: 500px) {
 
 @media screen
 and (min-width: 720px) {
-	.project-list article {width: 33.33%;}
+	.project-list article {width: 33.333%;}
 	.intro p.favoritethings-yes {font-size: 175%;}
 }
 
@@ -292,7 +329,8 @@ and (min-width: 1024px) {
 }
 
 @media screen
-and (min-width:1380px) {
+and (min-width:1280px) {
 	.project-list article {width: 20%;}
-	.intro p.favoritethings-yes {font-size: 250%;}
+	.intro p.favoritethings-yes {font-size: 200%;}
+	.intro p.name {font-size: 150%;}
 }

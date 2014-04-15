@@ -75,9 +75,14 @@
 	
 		<section id="content">
 		
-			<h2><a href="./">About</a></h2>
+			<h2><a href="./">Contact</a></h2>
 			
 			<div id="media">
+      	<div class="image">
+		<img src="./content/2.contact/01.jpg" alt="Contact" width="440" height="350">
+    
+	</div>
+
   
   
   
@@ -87,9 +92,9 @@
   
 </div>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat. Vestibulum vulputate, erat a eleifend consequat, ipsum augue tincidunt sem, ac aliquet nibh magna nec nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum mattis tellus nec tortor blandit a tempor odio mollis.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat.</p>
 
-<p>Nam ligula purus, fringilla ut accumsan non, sagittis id mi. Donec risus felis, hendrerit quis rhoncus egestas, laoreet non mi. Fusce in lorem non ipsum gravida lobortis a ut justo. Nam varius aliquet velit id viverra. Nunc bibendum mi ut ipsum blandit ultrices. Donec justo metus, varius id iaculis sed, ultricies lobortis eros. Curabitur sapien tortor, tempus sed varius sit amet, tempus a dui. Donec pharetra nibh et risus tincidunt molestie. Vivamus luctus posuere quam. Aliquam erat volutpat. Vivamus a neque at turpis hendrerit egestas quis vitae nisl.</p>
+<p>I can be contacted at: <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#104;&#105;&#64;&#121;&#111;ur&#x64;&#x6f;&#x6d;&#x61;&#x69;&#x6e;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#121;&#111;ur&#x64;&#x6f;&#x6d;&#x61;&#x69;&#x6e;&#46;&#99;&#111;&#109;</a>.</p>
 
 
 		</section>
@@ -109,4 +114,4 @@
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): 167e4f45c62145f40877bfbb977b1d88 -->
+<!-- Stacey(2.3.0): ed1f04311947a11c21d5ad9a94522189 -->
