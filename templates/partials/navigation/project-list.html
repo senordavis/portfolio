@@ -1,19 +1,22 @@
+<section class="project-list">
 foreach $root do
   if $children do
     foreach $children do
     	<article class="item">
-    		<div class="thumbnail">
+    		<div>
 			<a href="@url">
     				
-    				<div class="thumbnailContent">
+    				<div class="articleContent">
     				<span class="title">@title</span>
     				<span class="description">@description</span>
     				</div>
     				
-    				<img src="@thumb" alt="">
+    				<img src="@thumb" alt="Thumnbnail image of @title">
     			</a>
 		</div>
     	</article>
     endforeach
   endif
 endforeach
+<br class="clear"/>
+</section>

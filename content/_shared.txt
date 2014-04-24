@@ -2,6 +2,8 @@ site-name: portfolio
 -
 site-author: Kristina Moore
 -
+site-date: @current_year
+-
 site-keywords:
 -
 site-description:

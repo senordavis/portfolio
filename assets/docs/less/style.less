@@ -1,0 +1,124 @@
+@import "variables.less";
+@import "bootstrap/bootstrap.less";
+
+.ease (@time: 0.5s) {
+	-webkit-transition: all @time ease-in-out;
+	-moz-transition: all @time ease-in-out;
+	-o-transition: all @time ease-in-out;
+	transition: all @time ease-in-out;
+}
+
+.raleway { font-family: 'Raleway', sans-serif; }
+.merriweather { font-family: 'Merriweather', serif; }
+
+/* Design Styles */
+
+body {
+  padding-top: 50px;
+  .raleway;
+}
+
+::selection {background-color: @themecolor; color: white;}
+
+a { color: @themecolor; }
+a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
+
+#mainNav {
+	@media (min-width: @screen-sm-min) { float: right; } 
+}
+
+.feature {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top:0;
+	background-color: @themecolor;
+	z-index: 0;
+	.ease;
+	
+	.intro {
+		margin-top: 130px;
+		text-align: center;
+		
+		.make-sm-column-offset(2);
+		.make-sm-column(8);
+		.make-md-column-offset(3);
+		.make-md-column(6);
+		
+					
+		p {
+			color: white;
+			margin: 0 auto;
+			font-size: 150%;
+			@media (min-width: @screen-sm-min) {font-size: 180%;}
+			@media (min-width: @screen-md-min) {font-size: 200%;}
+		}
+		
+		.name {
+			margin-left: 2%;
+			background-color: @alphablack;
+			display: inline-block;
+			padding: 5px;
+		}
+	}
+}
+
+.project-list {
+	
+	margin-top: 350px;
+	
+	article {
+		.make-sm-column(6);
+		.make-md-column(4);
+		.make-lg-column(3);
+		height: 250px;
+		max-height: 250px;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		border: 1px solid white;
+		
+		
+		a {color: white; display: block; padding-top: 250px; .ease;}
+		
+		a:hover {	padding: 0; .ease;}
+		
+		img {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+		
+		.articleContent {
+		background-color: @alphablack;
+		min-height: 250px;
+		max-height: 250px;
+		width: 100%;
+		text-align: center;
+		padding: 30px;
+		
+		.title {
+			border-bottom: 1px solid white;
+			padding-bottom: 10px;
+			display: block;
+			font-weight: bold;
+			color: white;
+			}
+
+		
+	}
+		
+
+	}
+	
+} //end project list
+
+footer {
+	clear: both;
+	min-height: 50px;
+	margin-bottom: 50px;
+	
+	.copyright {margin-top: 50px;}
+}
