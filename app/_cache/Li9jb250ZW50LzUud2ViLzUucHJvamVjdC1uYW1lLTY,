@@ -19,12 +19,31 @@
 
 <!-- !CSS -->
 <link rel="stylesheet" href="./assets/docs/css/screen.css" type="text/css" media="screen">
-<link rel="stylesheet" href="./assets/docs/css/responsive-nav.css" type="text/css" media="screen">
-<link rel="stylesheet" href="./assets/docs/css/carousel.css" type="text/css" media="screen">	
+<link rel="stylesheet" href="./assets/docs/css/responsive-nav.css">
+	
 
 <!-- !Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
+
+
+<!-- !Scripts -->
+
+<script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
+<script src="./assets/docs/js/modernizr.js"></script>
+<script src="./assets/docs/js/responsive-nav.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.get('./content/_favoritethings.txt', function (data) {
+            var quotes = data.split(";");
+            var idx = Math.floor(quotes.length * Math.random());
+            $('.favoritethings-yes').html(quotes[idx]);
+        });
+    });
+</script>
+
+
 	
 	</head>
 	
@@ -59,28 +78,26 @@
 	
 		<section id="content">
 		
-			<h2><a href="./">...Project 2</a></h2>
+			<h2><a href="./">The Longer Project Name 6</a></h2>
 			
 			<div id="media">
-      <ul class="carousel" id="carousel">
-	<li class="image">
-		<img src="./content/6.print/9.project-name-2/04.jpg" alt="...Project 2" width="540" height="430">
+      	<div class="image">
+		<img src="./content/5.web/5.project-name-6/04.jpg" alt="The Longer Project Name 6" width="540" height="430">
     
-	</li>
-	<li class="image">
-		<img src="./content/6.print/9.project-name-2/03.jpg" alt="...Project 2" width="540" height="450">
+	</div>
+	<div class="image">
+		<img src="./content/5.web/5.project-name-6/03.jpg" alt="The Longer Project Name 6" width="540" height="450">
     
-	</li>
-	<li class="image">
-		<img src="./content/6.print/9.project-name-2/02.jpg" alt="...Project 2" width="540" height="430">
+	</div>
+	<div class="image">
+		<img src="./content/5.web/5.project-name-6/02.jpg" alt="The Longer Project Name 6" width="540" height="430">
     
-	</li>
-	<li class="image">
-		<img src="./content/6.print/9.project-name-2/01.jpg" alt="...Project 2" width="540" height="430">
+	</div>
+	<div class="image">
+		<img src="./content/5.web/5.project-name-6/01.jpg" alt="The Longer Project Name 6" width="540" height="430">
     
-	</li>
+	</div>
 
-</ul>
   
   
   
@@ -107,38 +124,11 @@
 						
 		</footer>
 		
-			<!-- !Scripts -->
-
-<script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
-<script src="./assets/docs/js/modernizr.js"></script>
-<script src="./assets/docs/js/responsive-nav.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $.get('./content/_favoritethings.txt', function (data) {
-            var quotes = data.split(";");
-            var idx = Math.floor(quotes.length * Math.random());
-            $('.favoritethings-yes').html(quotes[idx]);
-        });
-    });
-</script>
-
-
-
-<script>
+			<script>
       var navigation = responsiveNav(".nav-collapse");
 </script>
-
-    <script type="text/javascript" src="./assets/docs/js/jquery.carousel.js"></script>
-    <script type="text/javascript">
-    $('#carousel').carousel({
-	elements: {
-		
-	}
-});
-    </script>
 		
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): dc775baf06a10d914d0afe4ed13ff7bb -->
+<!-- Stacey(2.3.0): 38a62a9708ff4391d08e81267fb4247b -->

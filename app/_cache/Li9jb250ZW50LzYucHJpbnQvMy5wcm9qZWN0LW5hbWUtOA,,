@@ -59,24 +59,24 @@
 	
 		<section id="content">
 		
-			<h2><a href="./">...Project 2</a></h2>
+			<h2><a href="./">The Test Project 8</a></h2>
 			
 			<div id="media">
       <ul class="carousel" id="carousel">
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/04.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/3.project-name-8/04.jpg" alt="The Test Project 8" width="540" height="430">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/03.jpg" alt="...Project 2" width="540" height="450">
+		<img src="./content/6.print/3.project-name-8/03.jpg" alt="The Test Project 8" width="540" height="450">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/02.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/3.project-name-8/02.jpg" alt="The Test Project 8" width="540" height="430">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/01.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/3.project-name-8/01.jpg" alt="The Test Project 8" width="540" height="430">
     
 	</li>
 

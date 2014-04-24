@@ -1,8 +1,8 @@
-<p class="category"><em>@title</em></p>
-<ul class="project-list">
-foreach $children do
-	<li>
-		<div class="thumbnail">
+foreach $root do
+  if $children do
+    foreach $children do
+    	<article class="item">
+    		<div class="thumbnail">
 			<a href="@url">
     				
     				<div class="thumbnailContent">
@@ -13,6 +13,7 @@ foreach $children do
     				<img src="@thumb" alt="">
     			</a>
 		</div>
-	</li>
+    	</article>
+    endforeach
+  endif
 endforeach
-</ul>

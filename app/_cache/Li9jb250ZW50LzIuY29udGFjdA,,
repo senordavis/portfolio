@@ -53,7 +53,7 @@
 			
 				<h1><a href="./">portfolio</a></h1>
 				
-				<nav>
+				<nav class="nav-collapse">
 					<ul>
   
   
@@ -111,7 +111,11 @@
 						
 		</footer>
 		
+			<script>
+      var navigation = responsiveNav(".nav-collapse");
+</script>
+		
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): ed1f04311947a11c21d5ad9a94522189 -->
+<!-- Stacey(2.3.0): 38a62a9708ff4391d08e81267fb4247b -->

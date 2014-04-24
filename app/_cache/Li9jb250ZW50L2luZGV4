@@ -19,31 +19,12 @@
 
 <!-- !CSS -->
 <link rel="stylesheet" href="./assets/docs/css/screen.css" type="text/css" media="screen">
-<link rel="stylesheet" href="./assets/docs/css/responsive-nav.css">
-	
+<link rel="stylesheet" href="./assets/docs/css/responsive-nav.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./assets/docs/css/carousel.css" type="text/css" media="screen">	
 
 <!-- !Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
-
-
-<!-- !Scripts -->
-
-<script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
-<script src="./assets/docs/js/modernizr.js"></script>
-<script src="./assets/docs/js/responsive-nav.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $.get('./content/_favoritethings.txt', function (data) {
-            var quotes = data.split(";");
-            var idx = Math.floor(quotes.length * Math.random());
-            $('.favoritethings-yes').html(quotes[idx]);
-        });
-    });
-</script>
-
-
 	
 	</head>
 	
@@ -84,151 +65,161 @@
 			
 			         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/print/project-1/"><img src="./content/6.print/10.project-1/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/print/project-1/">The Test Project 1</a></p>
-    			<p><em>2009, Jan–</em></p>
-    			<p><em class="background">&ndash; magazine, illustration, sneakers, nike</em></p>
-    		</div>
--->
+			<a href="./?/print/project-1/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 1</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/6.print/10.project-1/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/print/project-name-2/"><img src="./content/6.print/9.project-name-2/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/print/project-name-2/">...Project 2</a></p>
-    			<p><em>2009, Feb–</em></p>
-    			<p><em class="background">&ndash; <p>typeface, modular, display face, unreleased, typography, experiment</p>
-</em></p>
-    		</div>
--->
+			<a href="./?/print/project-name-2/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">...Project 2</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/6.print/9.project-name-2/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/print/project-name-3/"><img src="./content/6.print/8.project-name-3/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/print/project-name-3/">The Test Project 3</a></p>
-    			<p><em>2009, Aug–</em></p>
-    			<p><em class="background">&ndash; print, promotion, program, photography, found objects, performance, theatre</em></p>
-    		</div>
--->
+			<a href="./?/print/project-name-3/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 3</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/6.print/8.project-name-3/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/print/project-name-8/"><img src="./content/6.print/3.project-name-8/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/print/project-name-8/">The Test Project 8</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, photography, party, flyer, promotion</em></p>
-    		</div>
--->
+			<a href="./?/print/project-name-8/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 8</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/6.print/3.project-name-8/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
     
            	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/web/project-1/"><img src="./content/5.web/10.project-1/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/web/project-1/">The Test Project 1</a></p>
-    			<p><em>2009, Jan–</em></p>
-    			<p><em class="background">&ndash; magazine, illustration, sneakers, nike</em></p>
-    		</div>
--->
+			<a href="./?/web/project-1/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 1</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/5.web/10.project-1/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/web/project-name-2/"><img src="./content/5.web/9.project-name-2/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/web/project-name-2/">...Project 2</a></p>
-    			<p><em>2009, Feb–</em></p>
-    			<p><em class="background">&ndash; <p>typeface, modular, display face, unreleased, typography, experiment</p>
-</em></p>
-    		</div>
--->
+			<a href="./?/web/project-name-2/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">...Project 2</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/5.web/9.project-name-2/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/web/project-name-6/"><img src="./content/5.web/5.project-name-6/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/web/project-name-6/">The Longer Project Name 6</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, opulent, party, flyer, A3, junk, collection</em></p>
-    		</div>
--->
+			<a href="./?/web/project-name-6/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Longer Project Name 6</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/5.web/5.project-name-6/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/web/project-name-9/"><img src="./content/5.web/2.project-name-9/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/web/project-name-9/">Project 9</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, promotion, performance, theatre, casino, simulacrum</em></p>
-    		</div>
--->
+			<a href="./?/web/project-name-9/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">Project 9</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/5.web/2.project-name-9/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
     
            	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/other/project-name-3/"><img src="./content/4.other/8.project-name-3/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/other/project-name-3/">The Test Project 3</a></p>
-    			<p><em>2009, Aug–</em></p>
-    			<p><em class="background">&ndash; print, promotion, program, photography, found objects, performance, theatre</em></p>
-    		</div>
--->
+			<a href="./?/other/project-name-3/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 3</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/4.other/8.project-name-3/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/other/project-name-6/"><img src="./content/4.other/5.project-name-6/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/other/project-name-6/">The Longer Project Name 6</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, opulent, party, flyer, A3, junk, collection</em></p>
-    		</div>
--->
+			<a href="./?/other/project-name-6/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Longer Project Name 6</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/4.other/5.project-name-6/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/other/project-name-8/"><img src="./content/4.other/3.project-name-8/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/other/project-name-8/">The Test Project 8</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, photography, party, flyer, promotion</em></p>
-    		</div>
--->
+			<a href="./?/other/project-name-8/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">The Test Project 8</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/4.other/3.project-name-8/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
         	<article class="item">
     		<div class="thumbnail">
-    			<a href="./?/other/project-name-9/"><img src="./content/4.other/2.project-name-9/thumb.jpg" alt=""></a>
-    		</div>
-    		<!--
-<div class="summary col two">
-    			<p><a href="./?/other/project-name-9/">Project 9</a></p>
-    			<p><em>2009, Jun–</em></p>
-    			<p><em class="background">&ndash; print, poster, promotion, performance, theatre, casino, simulacrum</em></p>
-    		</div>
--->
+			<a href="./?/other/project-name-9/">
+    				
+    				<div class="thumbnailContent">
+    				<span class="title">Project 9</span>
+    				<span class="description">@description</span>
+    				</div>
+    				
+    				<img src="./content/4.other/2.project-name-9/thumb.jpg" alt="">
+    			</a>
+		</div>
     	</article>
     
     
@@ -248,11 +239,38 @@
 						
 		</footer>
 		
-		<script>
+			<!-- !Scripts -->
+
+<script src="./assets/docs/js/jquery-1.8.3.min.js"></script>
+<script src="./assets/docs/js/modernizr.js"></script>
+<script src="./assets/docs/js/responsive-nav.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.get('./content/_favoritethings.txt', function (data) {
+            var quotes = data.split(";");
+            var idx = Math.floor(quotes.length * Math.random());
+            $('.favoritethings-yes').html(quotes[idx]);
+        });
+    });
+</script>
+
+
+
+<script>
       var navigation = responsiveNav(".nav-collapse");
+</script>
+
+    <script type="text/javascript" src="./assets/docs/js/jquery.carousel.js"></script>
+    <script type="text/javascript">
+    $('#carousel').carousel({
+	elements: {
+		
+	}
+});
     </script>
 		
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): 167e4f45c62145f40877bfbb977b1d88 -->
+<!-- Stacey(2.3.0): 5ca2f3f103e21713122802d4b9a5ec34 -->

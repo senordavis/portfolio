@@ -13,8 +13,8 @@
   display: block;
   margin: 0;
   padding: 0;
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
   border-bottom: 1px dotted white;
 }
 
@@ -23,13 +23,21 @@
 	margin: 0;
 	padding-right: 10%;
 	background-color: transparent;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	line-height: 50px;
 }
 
 .nav-collapse li a:hover {
 	padding: 0;
 	margin: 0;
 	padding-right: 10%;
-	background-color: transparent;
+	background-color: #C71585;
+}
+
+.nav-collapse li:last-child {
+	border-bottom: none;
 }
 
 .js .nav-collapse {
@@ -42,28 +50,22 @@
 }
 
 .nav-collapse.opened {
-  min-height: 9999px;
   max-height: 9999px;
   
   width: 100%;
-  top: -50px;
+  top: -20px;
   left: 0px;
   margin-right: 0;
   text-align: right;
 }
 
-.nav-collapse.opened {
-	width: 100%;
-	top: -20px;
-	left: 0px;
-	margin-right: 0;
-}
 
 .nav-collapse.closed {
 	width: 100%;
 	top: -20px;
 	left: 0px;
 	margin-right: 0;
+	text-align: right;
 }
 
 .disable-pointer-events {
@@ -89,6 +91,12 @@
   width: 100%;
   display: inline;
 }
+
+	.nav-collapse li a {
+		width: auto;
+		height: auto;
+		line-height: normal;
+	}
   
   .js .nav-collapse {
     position: relative;

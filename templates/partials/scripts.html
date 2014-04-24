@@ -1,0 +1,30 @@
+<!-- !Scripts -->
+
+<script src="@root_path/assets/docs/js/jquery-1.8.3.min.js"></script>
+<script src="@root_path/assets/docs/js/modernizr.js"></script>
+<script src="@root_path/assets/docs/js/responsive-nav.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.get('@root_path/content/_favoritethings.txt', function (data) {
+            var quotes = data.split(";");
+            var idx = Math.floor(quotes.length * Math.random());
+            $('.favoritethings-yes').html(quotes[idx]);
+        });
+    });
+</script>
+
+
+
+<script>
+      var navigation = responsiveNav(".nav-collapse");
+</script>
+
+    <script type="text/javascript" src="@root_path/assets/docs/js/jquery.carousel.js"></script>
+    <script type="text/javascript">
+    $('#carousel').carousel({
+	elements: {
+		
+	}
+});
+    </script>

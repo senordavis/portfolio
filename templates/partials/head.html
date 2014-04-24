@@ -14,27 +14,9 @@
 
 <!-- !CSS -->
 <link rel="stylesheet" href="@root_path/assets/docs/css/screen.css" type="text/css" media="screen">
-<link rel="stylesheet" href="@root_path/assets/docs/css/responsive-nav.css">
-	
+<link rel="stylesheet" href="@root_path/assets/docs/css/responsive-nav.css" type="text/css" media="screen">
+<link rel="stylesheet" href="@root_path/assets/docs/css/carousel.css" type="text/css" media="screen">	
 
 <!-- !Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
-
-
-<!-- !Scripts -->
-
-<script src="@root_path/assets/docs/js/jquery-1.8.3.min.js"></script>
-<script src="@root_path/assets/docs/js/modernizr.js"></script>
-<script src="@root_path/assets/docs/js/responsive-nav.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $.get('@root_path/content/_favoritethings.txt', function (data) {
-            var quotes = data.split(";");
-            var idx = Math.floor(quotes.length * Math.random());
-            $('.favoritethings-yes').html(quotes[idx]);
-        });
-    });
-</script>
-

@@ -59,24 +59,24 @@
 	
 		<section id="content">
 		
-			<h2><a href="./">...Project 2</a></h2>
+			<h2><a href="./">The Test Project 1</a></h2>
 			
 			<div id="media">
       <ul class="carousel" id="carousel">
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/04.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/10.project-1/04.jpg" alt="The Test Project 1" width="540" height="430">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/03.jpg" alt="...Project 2" width="540" height="450">
+		<img src="./content/6.print/10.project-1/03.jpg" alt="The Test Project 1" width="540" height="450">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/02.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/10.project-1/02.jpg" alt="The Test Project 1" width="540" height="430">
     
 	</li>
 	<li class="image">
-		<img src="./content/6.print/9.project-name-2/01.jpg" alt="...Project 2" width="540" height="430">
+		<img src="./content/6.print/10.project-1/01.jpg" alt="The Test Project 1" width="540" height="430">
     
 	</li>
 
@@ -141,4 +141,4 @@
 	</body>
 	
 </html>
-<!-- Stacey(2.3.0): dc775baf06a10d914d0afe4ed13ff7bb -->
+<!-- Stacey(2.3.0): 5ca2f3f103e21713122802d4b9a5ec34 -->
