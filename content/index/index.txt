@@ -1,5 +1,5 @@
 page-description: @site-description
 -
-page-title: Home
+title: Home
 -
 favoritethings:yes

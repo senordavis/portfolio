@@ -1,44 +1,22 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-	
-		:head
-	
-	</head>
-	
-	<body>
-		
-		<header>
-			
-				<h1><a href="@root_path/">@site-name</a></h1>
-				
-				<nav class="nav-collapse">
-					:pages
-				</nav>
-						
-		</header>
+:head
+<!-- !DO NOT EDIT ABOVE THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING -->
+
+:header
 
 	
-		<section id="content">
+<section id="content" class="container">
 		
-			<h2><a href="@root_path">@title</a></h2>
+	<h2>@title</h2>
 			
-			:media
+	:media
 			
-			@content
+	@content
 
-		</section>
+</section>
 
 
-		<footer>
-			
-			:footer
-						
-		</footer>
-		
-			:scripts
-		
-	</body>
-	
-</html>
+:footer
+
+
+<!-- !DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING -->
+:scripts
