@@ -5917,6 +5917,8 @@ a:hover {
 }
 .project-list article img {
   width: 100%;
+  height: auto;
+  min-height: 250px;
   position: absolute;
   top: 0;
   left: 0;
