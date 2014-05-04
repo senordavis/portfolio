@@ -1,18 +1,17 @@
-<p class="category"><em>@title</em></p>
-<ul class="project-list">
-foreach $children do
-	<li>
-		<div class="thumbnail">
+<section class="project-list category-list">foreach $children do
+	<article class="item">
+    		<div>
 			<a href="@url">
     				
-    				<div class="thumbnailContent">
+    				<div class="articleContent">
     				<span class="title">@title</span>
     				<span class="description">@description</span>
     				</div>
     				
-    				<img src="@thumb" alt="">
+    				<img src="@thumb" alt="Thumnbnail image of @title">
     			</a>
 		</div>
-	</li>
+    	</article>
 endforeach
-</ul>
+<br class="clear"/>
+</section>

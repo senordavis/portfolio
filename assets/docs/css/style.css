@@ -5939,15 +5939,24 @@ a:hover {
   font-weight: bold;
   color: white;
 }
+.category-list {
+  margin-top: 50px;
+}
 #content h2 {
   color: #ff1493;
   font-weight: bold;
   font-size: 300%;
 }
+.date {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 footer {
   clear: both;
   min-height: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: #ff1493;
+  color: #ffffff;
 }
 footer .copyright {
   margin-top: 50px;
