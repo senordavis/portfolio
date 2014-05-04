@@ -1,0 +1,14 @@
+<section class="col-md-6 col-xs-12 ">
+<div class="flexslider">
+<ul class="slides">
+foreach $images do
+	<li class="image">
+		<img src="@url" alt="@title" width="@width" height="@height">
+    if @description do
+      <em>@description</em>
+    endif
+	</li>
+endforeach
+</ul>
+</div>
+</section>

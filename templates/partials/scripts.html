@@ -5,7 +5,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="@root_path/assets/docs/js/bootstrap.min.js"></script>
-
+<script src="@root_path/assets/docs/js/jquery.flexslider.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -14,8 +14,16 @@
             var idx = Math.floor(quotes.length * Math.random());
             $('.favoritethings-yes').html(quotes[idx]);
         });
+        
+         $('.flexslider').flexslider({
+    animation: "slide"
+  });
+  
     });
 </script>
+
+
+
 
 </body>
 </html>
