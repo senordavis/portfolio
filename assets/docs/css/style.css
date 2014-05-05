@@ -5942,6 +5942,10 @@ a:hover {
 .category-list {
   margin-top: 50px;
 }
+#work {
+  margin-bottom: 60px;
+  padding: 0;
+}
 #content h2 {
   color: #ff1493;
   font-weight: bold;
@@ -5954,10 +5958,13 @@ a:hover {
 footer {
   clear: both;
   min-height: 50px;
-  padding-bottom: 50px;
+  height: 60px;
   background-color: #ff1493;
   color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer .copyright {
-  margin-top: 50px;
+  margin-top: 20px;
 }

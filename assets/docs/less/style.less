@@ -119,6 +119,8 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 
 .category-list {margin-top: 50px;}
 
+#work {margin-bottom: 60px; padding: 0;}
+
 #content {
 	h2 {color: @themecolor; font-weight: bold; font-size: 300%;}
 }
@@ -128,10 +130,14 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 footer {
 	clear: both;
 	min-height: 50px;
-	padding-bottom: 50px;
+	height: 60px;
 	
 	background-color: @themecolor;
 	color: @footer-text-color;
 	
-	.copyright {margin-top: 50px;}
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	
+	.copyright {margin-top: 20px;}
 }
