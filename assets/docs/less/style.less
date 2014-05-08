@@ -23,6 +23,8 @@ body {
 a { color: @themecolor; }
 a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 
+.navbar-brand .glyphicon {position: relative; top: 2px;}
+
 #mainNav {
 	@media (min-width: @screen-sm-min) { float: right; } 
 }
@@ -33,7 +35,7 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 	position: absolute;
 	top:0;
 	background-color: @themecolor;
-	z-index: 0;
+	z-index: 10;
 	.ease;
 	
 	.intro {
@@ -64,7 +66,6 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 }
 
 .project-list {
-	
 	margin-top: 350px;
 	
 	article {
@@ -121,39 +122,37 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 
 .category-list {margin-top: 50px;}
 
-#work {margin-bottom: 60px; padding: 0;}
+#work {margin-bottom: 60px; padding: 0; background-color: white;}
 
-.maincontent {
-	background-color: white;
-	margin-bottom: 100px;
-}
 
 #content {
 	background: white;
-	margin-bottom: 100px;
 
 	h2 {color: @themecolor; font-weight: bold; font-size: 300%;}
 }
 
 .maincontent {
-.description {
-	border-top: 1px solid @themecolor;
-	border-bottom: 1px solid @themecolor;
-	padding: 10px;
-}
+	background-color: white;
+	margin-bottom: @footer-height;
 
-.specs {
-	margin-bottom: 10px;
-	padding: 10px;
-	border-bottom: 1px solid @themecolor;
-}
+	.description {
+		border-top: 1px solid @themecolor;
+		border-bottom: 1px solid @themecolor;
+		padding: 10px;
+	}
+	
+	.specs {
+		margin-bottom: 10px;
+		padding: 10px;
+		border-bottom: 1px solid @themecolor;
+	}
 }
 
 
 footer {
 	clear: both;
-	min-height: 50px;
-	height: 60px;
+	min-height: @footer-height;
+	height: @footer-height;
 	
 	background-color: @themecolor;
 	color: @footer-text-color;

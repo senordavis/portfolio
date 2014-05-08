@@ -2367,8 +2367,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('/assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('/assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5798,6 +5798,10 @@ a:hover {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+.navbar-brand .glyphicon {
+  position: relative;
+  top: 2px;
+}
 @media (min-width: 768px) {
   #mainNav {
     float: right;
@@ -5809,7 +5813,7 @@ a:hover {
   position: absolute;
   top: 0;
   background-color: #ff1493;
-  z-index: 0;
+  z-index: 10;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -5947,19 +5951,19 @@ a:hover {
 #work {
   margin-bottom: 60px;
   padding: 0;
-}
-.maincontent {
   background-color: white;
-  margin-bottom: 100px;
 }
 #content {
   background: white;
-  margin-bottom: 100px;
 }
 #content h2 {
   color: #ff1493;
   font-weight: bold;
   font-size: 300%;
+}
+.maincontent {
+  background-color: white;
+  margin-bottom: 60px;
 }
 .maincontent .description {
   border-top: 1px solid #ff1493;
@@ -5973,7 +5977,7 @@ a:hover {
 }
 footer {
   clear: both;
-  min-height: 50px;
+  min-height: 60px;
   height: 60px;
   background-color: #ff1493;
   color: #ffffff;
