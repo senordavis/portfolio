@@ -5945,6 +5945,11 @@ a:hover {
   font-weight: bold;
   color: white;
 }
+.project-list article .articleContent h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
 .category-list {
   margin-top: 50px;
 }
