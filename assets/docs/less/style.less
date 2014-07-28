@@ -26,7 +26,13 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 .navbar-brand .glyphicon {position: relative; top: 2px;}
 
 #mainNav {
-	@media (min-width: @screen-sm-min) { float: right; } 
+	@media (min-width: @screen-sm-min) { float: right; }
+	
+	li a h2 {
+		font-size: 14px;
+		font-weight: 300;
+		margin: 0;
+	} 
 }
 
 .feature {
