@@ -1,6 +1,6 @@
 # Stacey - Portfolio Template 1
 
-This is a portfolio template for staceyapp.  
+This is a portfolio template for staceyapp v2.3.0.  
 
 
 ## Installation
