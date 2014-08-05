@@ -5,7 +5,7 @@ This is a portfolio template for staceyapp.
 
 ## Installation
 
-Replace the `content`, `public` & `templates` folders from the default stacey installation with the `content`, `assists` & `templates`folders from this repo.
+Replace the `content`, `public` & `templates` folders from the default stacey installation with the `content`, `assets` & `templates`folders from this repo.
 
 ## About Staceyapp
 
