@@ -1,0 +1,16 @@
+title: Military 2 Medic
+-
+description:
+@title is Program offered through Lansing Community College.
+-
+content: 
+@description
+
+The program is designed to help military medics complete the necessary requirements to transition to paramedics.
+
+Those who complete this program are positioned to continue onward to become a nurse, if desired, by entering into the Advanced Standing Nursing Program.
+
+The design looked at many military symbols, and paramedic symbols. 
+-
+specs:
+@freelance

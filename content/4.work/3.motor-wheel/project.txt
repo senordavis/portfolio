@@ -1,0 +1,14 @@
+title: Motor Wheel Lofts
+-
+description:
+@title is a residence building that offers unique loft spaces in downtown Lansing, Michigan. 
+-
+content: 
+@description
+
+The buildling is a historic wheel factory that was remodeled into multiple loft apartments.
+
+Looking at the history of the building and at the design style of the time. Making a mark that was simple and evoked an art deco feel was the direction for this logo and other design pieces. 
+-
+specs:
+@traction

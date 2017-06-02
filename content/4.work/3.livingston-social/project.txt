@@ -1,0 +1,12 @@
+title: Livingston Social Brew Crew
+-
+description:
+@title is a home brewers club based in Livingston County.
+-
+content: 
+@description
+
+The design was created to feel like a sign that you would see on a typical "main street", in a small town. 
+-
+specs:
+@freelance

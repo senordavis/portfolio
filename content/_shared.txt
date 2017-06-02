@@ -15,3 +15,11 @@ twitter: senordavis
 instagram: senordavis
 -
 dribbble: senordavis
+-
+freelance: Designed as a freelance project
+-
+traction: Designed while working at Project Traction
+-
+wharton: Designed while working at Wharton Center
+-
+outreach: Designed while working at MSU University Outreach and Engagement

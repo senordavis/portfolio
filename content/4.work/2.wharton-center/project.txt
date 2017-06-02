@@ -1,0 +1,14 @@
+title: Wharton Center
+-
+description:
+@title is the Performing Arts Centers at Michigan State University.
+-
+content: 
+@description
+
+@title seeks to enrich the lives of Michigan residents and strengthen the value of the arts in everyday life by serving as a leading resource for renowned arts entertainment and education programs.
+
+While developing this brand the main theme was how the performances seen at the center could have an impact on people. The ideas of the stage and lighting were discussed. Using the exsisitng logo as reference, the new design emphasizes the spotlights shining down on the words to make a "W" shape.
+-
+specs:
+@wharton

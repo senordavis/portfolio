@@ -1,0 +1,10 @@
+title: Resi Salon and Spa
+-
+description:
+@title logo design
+-
+content: 
+This logo was designed for a Salon and Spa. The owner's favorite animal was a peacock and requested that it be included in the design of the logo.
+-
+specs:
+@freelance

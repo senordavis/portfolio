@@ -1,0 +1,12 @@
+title: The Grand Woods Lounge
+-
+description:
+@title is a bar and restaurant located in Grand Rapids, Michigan.
+-
+content: 
+@description
+
+The restaurant itself is decorated to feel like a big cabin in the woods. The logo was designed to have a retro feel but with the a woodsy feel.
+-
+specs:
+@traction

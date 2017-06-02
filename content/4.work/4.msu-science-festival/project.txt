@@ -1,0 +1,20 @@
+title: MSU Science Festival
+-
+description:
+@title is an annually occurring festival that showcases many different science disciplines at MSU and across the state.
+-
+content: 
+@description
+
+In designing the logo, many different concepts were looked at. Cell structure, atoms, the design of molecules and how the interact. Ultimately the periodic table was chosen as the one unifying concept.
+
+Luckily there were elements in the table the matched up with the first to letters of <b>Sc</b>ience and <b>Fe</b>stival. These two elements are [Scandium](http://periodictable.com/Elements/021/index.html) and [Iron](http://periodictable.com/Elements/026/index.html).
+
+Much of the rest of the science festival pieces were then created to use the periodic tables elements as icons. 
+
+Custom stickers and buttons have also been created.
+
+A fun character was also needed for the Early Childhood Zone that would have science activities for children 7 years and younger. A Newt named Newton <span class="text-muted">(after Isaac Newton)</span> was created.
+-
+specs:
+@outreach

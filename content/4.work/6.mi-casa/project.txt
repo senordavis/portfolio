@@ -1,0 +1,14 @@
+title: Mi Casa Restaurant
+-
+description:
+@title is a restaurant located in Grand Rapids, Michigan. 
+-
+content: 
+@description
+
+@title is a hispanic restaurant that focuses on the idea of hospitality. The idea that “Mi Casa, es su Casa”, or “My house, is your house.” 
+
+Using traditional house designs from hispanic countries like Dominican Republic, Puerto Rico, Cuba, etc. A set of houses was drawn and placed with the text.
+-
+specs:
+@freelance

@@ -1,0 +1,18 @@
+title: GATE Icons
+-
+gate: Gifted and Talented Education
+-
+description:
+A set of icons created for @gate
+-
+content: 
+@description
+
+These icons are used to brand the individual programs of @gate.
+
+Each icon represents one of the programs and its subject area. The subjects range from language arts, to French, Latin, technology, and math.
+
+Some of the icons have hidden details. For instance the Future Docs icon when blown up very large has an EKG line in the heart on the medicine bottle in the shape of Beaumont tower, the clock tower on MSU’s campus. The CHAMP icon has 1855, the year that MSU was founded, in the read out of the calculator, as well as an “S” made out of some green buttons.
+-
+specs:
+@outreach

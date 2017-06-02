@@ -1,0 +1,16 @@
+title: Tavern on the Square
+-
+description:
+@title was a bar and restaurant located in downtown Lansing, Michigan.
+-
+content: 
+@description
+
+The bar was located on Washington Square, which is where both the name and design took it's inspiration from. 
+
+Playing on the idea of the street name the design is a rough sketch of George Washington in a square.
+
+<span class="text-muted"><small>The restaurant has since been renamed Tavern and Tap, and the logo been updated.</small></span>
+-
+specs:
+@traction

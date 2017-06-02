@@ -1,0 +1,12 @@
+title: Broadway Grand Rapids
+-
+description:
+@title is a broadway presenting organization in Grand Rapids, Michigan. 
+-
+content: 
+@description
+
+They seek to bring in the very best of national touring Broadway productions to West Michigan.
+-
+specs:
+@wharton

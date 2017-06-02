@@ -1,0 +1,14 @@
+title: Popoff Meat Company
+-
+description:
+@title was a meat packign company based in Lansing, Michigan.
+-
+content: 
+@description
+
+They offered meat delivery services, bulk meat purchases, and a store front where you could purchase meat that you could not find at your local grocery store.
+
+To design the logo, a lot of reasearch was done to understand the difference in cows that we eat versus cows that we milk. 
+-
+specs:
+@traction

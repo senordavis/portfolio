@@ -1,0 +1,14 @@
+title: Spartan Child Development Center
+-
+description:
+@title is a local day care center that is an affiliate of Michigan State University
+-
+content: 
+@description
+
+Established in 1971, they are a self-supporting, registered 501 c3 non-profit corporation that focuses on the fact that each child is a unique person with an individual personality, learning style, and cultural background.
+
+In designing this logo, the focus was on the shape of the children and how they interact with one another. 
+-
+specs:
+@freelance

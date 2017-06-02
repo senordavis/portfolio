@@ -1,0 +1,12 @@
+title: Gifted
+-
+description:
+Gifted is a personal shopping company. Specializing in helping you purchase gifts for people when you don't have time or you just do not know what to get.
+-
+content: 
+@description
+
+To create this logo we had looked at some custom bows created by Gifted, and illustrated one for the logo. 
+-
+specs:
+@traction

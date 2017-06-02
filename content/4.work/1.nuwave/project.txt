@@ -1,0 +1,14 @@
+title: NuWave Technology Partners
+-
+description:
+@title is a IT provider that designs, installs and services state-of-the-art communications and information systems.
+-
+content: 
+@description
+
+The logo design was created to invoke the feel and idea of data traveling and connecting from one place to another. The letters in NuWave are custom created letters. 
+
+A set of stationary materials was also created and a vechicle wrap for their service vechicles was also designed.
+-
+specs:
+@traction

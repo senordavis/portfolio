@@ -1,0 +1,14 @@
+title: Burton Meat Farm
+-
+description:
+@title is a Butcher shop located in Grand Rapids, Michigan.
+-
+content: 
+@description
+
+The name comes from the street that the butcher shop is located on. 
+
+The client wanted something that looked like a classic butcher logo, so big thick chisel type and a shape from a vintage sign were used. 
+-
+specs:
+@freelance

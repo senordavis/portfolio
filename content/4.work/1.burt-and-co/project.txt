@@ -1,0 +1,12 @@
+title: Burt and Company
+-
+description:
+@title was a Massage Therapy company based in Detroit, Michigan.
+-
+content: 
+@description
+
+Initially this project was just to design their website. After the first round of web design concepts was presented, updating the logo design was added to the project to keep the look and feel of both consistent.
+-
+specs:
+@freelance

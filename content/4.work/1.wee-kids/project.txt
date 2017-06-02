@@ -1,0 +1,16 @@
+title: Wee Kids Academy
+-
+description:
+@title is a child care center located in Coral Springs, Florida. 
+-
+content: 
+@description
+
+Their number one goal to provide the kind of environment and the kind of influences that encourage all children to become creative, independent, responsible, fully functioning, self-directed adults who can make decisions for themselve
+
+In designing the logo the feel need to be fun and whimsical. Playing on the palm trees and tropcial and bright colors of when you think of Florida. 
+
+An accompanying style guide was developed to define various different design uses of the logo and supporting graphic material.
+-
+specs:
+@freelance
