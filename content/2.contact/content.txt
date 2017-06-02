@@ -2,8 +2,10 @@ title: Contact
 -
 content:
 
-<img src="@pathimages/01.jpg" alt="photo of @site-author" class="img-responsive" />
+<!-- <img src="@pathimages/01.jpg" alt="photo of @site-author" class="img-responsive" /> -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat.
-
-I can be contacted at: <hi@yourdomain.com>.
+<form method="POST" action="http://formspree.io/mike@mdavis.in">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>

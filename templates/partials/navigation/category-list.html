@@ -1,5 +1,7 @@
-<section id="work" class="container col-xs-12">
-<section class="project-list category-list">foreach $children do
+<section id="work" class="container">
+<section class="project-list category-list">
+	if $children do
+	foreach $children[0:0] do
 	<article class="item">
     		<div>
 			<a href="@url">
@@ -13,7 +15,8 @@
     			</a>
 		</div>
     	</article>
-endforeach
+		endforeach
+		endif
 <br class="clear"/>
 </section>
 </section>

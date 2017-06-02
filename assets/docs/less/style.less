@@ -1,5 +1,12 @@
 @import "variables.less";
 @import "bootstrap/bootstrap.less";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald:300,500');
+
+//== Media queries shorthand mixins ==/
+@tiny:	 ~"(min-width: @{screen-xs-min})";
+@small:  ~"(min-width: @{screen-sm-min})";
+@medium: ~"(min-width: @{screen-md-min})";
+@large:  ~"(min-width: @{screen-lg-min})";
 
 .ease (@time: 0.5s) {
 	-webkit-transition: all @time ease-in-out;
@@ -11,84 +18,149 @@
 .raleway { font-family: 'Raleway', sans-serif; }
 .merriweather { font-family: 'Merriweather', serif; }
 
+.oswald { font-family: 'Oswald', sans-serif; }
+.opensans {font-family: 'Open Sans', sans-serif;}
+.montserrat {font-family: 'Montserrat', sans-serif;}
+
+
 /* Design Styles */
 
 body {
-  padding-top: 50px;
-  .raleway;
+  .montserrat;
+  font-weight: 300 !important;
+  font-size: 16px;
 }
 
-::selection {background-color: @themecolor; color: white;}
+::selection {
+	background-color: @themecolor;
+	color: white;
+}
 
-a { color: @themecolor; }
-a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
+h2 {
+	.oswald;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: @themecolor;
+	font-size: 400%;
+	letter-spacing: -2px;
+}
 
-.navbar-brand .glyphicon {position: relative; top: 2px;}
+a {
+	color: @themecolor;
+}
+
+a:hover {
+	color: darken(@themecolor, 20%);
+	text-decoration: none;
+	.ease;
+}
+
+.navbar-default {
+	background-color: white;
+	border: none;
+}
+
+header {
+	height: 80px;
+	
+	.navbar-brand {
+		
+		display: block;
+		width: 200px;
+		height: 80px;
+		margin: 20px;
+		background: url(../../images/M_DAVIS_LOGO.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		
+		h1 {
+			.text-hide;
+		}
+	}
+	
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+}
 
 #mainNav {
-	@media (min-width: @screen-sm-min) { float: right; }
+	background: @gray-lighter;
+	position: relative;
+	z-index: 2;
 	
-	li a h2 {
+	@media @large {
+		background-color: white;
+		margin-top: 20px;
+	}
+	
+	@media @small {
+		float: right;
+	}
+	
+	li a {
 		font-size: 14px;
 		font-weight: 300;
 		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		.oswald;
 	} 
 }
 
 .feature {
 	width: 100%;
-	height: 400px;
-	position: absolute;
-	top:0;
-	background-color: @themecolor;
+	min-height: 500px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	color: @themecolor;
 	z-index: 10;
 	.ease;
+	.container;
+	
+	h2 {
+		font-size: 300%;
+
+		@media @small {
+			font-size: 400%;
+		}
+	}
 	
 	.intro {
-		margin-top: 130px;
-		text-align: center;
 		
-		.make-sm-column-offset(2);
-		.make-sm-column(8);
-		.make-md-column-offset(3);
-		.make-md-column(6);
+		.make-sm-column(10);
 		
 					
 		p {
-			color: white;
-			margin: 0 auto;
-			font-size: 150%;
-			@media (min-width: @screen-sm-min) {font-size: 180%;}
-			@media (min-width: @screen-md-min) {font-size: 200%;}
-		}
-		
-		.name {
-			margin-left: 2%;
-			background-color: @alphablack;
-			display: inline-block;
-			padding: 5px;
+			color: @gray;
+			font-size: 100%;
+			width: 80%;
 		}
 	}
 }
 
 .project-list {
-	margin-top: 350px;
+
 	
 	article {
 		.make-sm-column(6);
 		.make-md-column(4);
 		.make-lg-column(3);
-		height: 250px;
-		max-height: 250px;
+		height: 235px;
+		max-height: 235px;
 		overflow: hidden;
-		padding: 0;
-		margin: 0;
-		border: 1px solid white;
+		padding: 15px;
+		margin-bottom: 15px;	
 		
+		a {
+			color: white;
+			display: block;
+			padding-top: 250px;
+			.ease;}
 		
-		a {color: white; display: block; padding-top: 250px; .ease;}
-		
-		a:hover {	padding: 0; .ease;}
+		a:hover {
+			padding: 0;
+			.ease;
+		}
 		
 		img {
 			width: 100%;
@@ -98,12 +170,14 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 			top: 0;
 			left: 0;
 			z-index: 1;
+			padding: 15px;
+			object-fit: cover;
 		}
 		
 		.articleContent {
 		background-color: @alphablack;
 		min-height: 250px;
-		max-height: 250px;
+		max-height: 235px;
 		width: 100%;
 		text-align: center;
 		padding: 30px;
@@ -114,14 +188,17 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 			border-bottom: 1px solid white;
 			padding-bottom: 10px;
 			display: block;
-			font-weight: bold;
 			color: white;
-			}
-			
-		h2 {
 			font-size: 18px;
-			font-weight: 700;
-			margin-bottom: 0;
+			font-weight: 300;
+			margin-bottom: 10px;
+			letter-spacing: 2px;
+			.oswald;
+			text-transform: uppercase;
+		}
+		
+		.description {
+			font-size: 80%;
 		}
 
 		
@@ -132,47 +209,92 @@ a:hover { color: darken(@themecolor, 20%); text-decoration: none; .ease; }
 	
 } //end project list
 
-.category-list {margin-top: 50px;}
+.category-list {
+	margin-top: 50px;
+}
 
-#work {margin-bottom: 60px; padding: 0; background-color: white;}
+#work {
+	margin-bottom: 60px;
+	padding: 0;
+}
 
 
 #content {
-	background: white;
-
-	h2 {color: @themecolor; font-weight: bold; font-size: 300%;}
+	margin-top: 165px;
+	margin-bottom: 100px;
 }
 
 .maincontent {
-	background-color: white;
 	margin-bottom: @footer-height;
+
+	.content {
+		.make-md-column(6);
+		margin: 15px -15px;
+	}
 
 	.description {
 		border-top: 1px solid @themecolor;
 		border-bottom: 1px solid @themecolor;
-		padding: 10px;
+		padding: 10px 0;
+		padding: 15px;
 	}
 	
 	.specs {
 		margin-bottom: 10px;
-		padding: 10px;
+		padding: 10px 0;
 		border-bottom: 1px solid @themecolor;
+		padding: 15px;
+	}
+
+	.media {
+		.make-md-column(6);
+	}
+
+	.projects {
+		position: relative;
+		top: 50px;
+		padding-top: 15px;
+		border-top: 1px solid @gray-lighter;
+		clear: both;
+		.make-row;
 	}
 }
 
+.image {
+	margin-bottom: 15px;
+	clear: both;
+}
 
 footer {
 	clear: both;
 	min-height: @footer-height;
-	height: @footer-height;
-	
+ 	//height: @footer-height;
 	background-color: @themecolor;
 	color: @footer-text-color;
-	
-	position: fixed;
-	bottom: 0;
 	width: 100%;
-	z-index: -1;
+	font-size: 80%;
 	
-	.copyright {margin-top: 20px;}
+	.copyright {
+		margin-top: 20px;
+		@media @small {
+			float: left;
+		}
+	}
+
+	.social {
+		@media @small {
+			margin-top: 20px;
+			float: right;
+		}
+
+		a {
+				color: @footer-text-color;
+				text-transform: capitalize;
+
+				&:hover {
+					color: white;
+				}
+			}
+		
+	}
 }

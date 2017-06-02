@@ -1,13 +1,17 @@
-site-name: portfolio
+site-name: @site-author Portfolio
 -
-site-author: Kristina Moore
+site-author: Mike Davis
 -
 site-date: @current_year
 -
 site-keywords:
 -
-site-description:
--
-email: <hi@yourdomain.com>
+site-description: Mike Davis is a graphic designer/illustrator based in East Lansing, MI. Capabilities include corporate branding, layout design, illustration, and web design/development. Mike provides creative designs and thoughtful solutions.
 -
 header:header-2
+-
+twitter: senordavis
+-
+instagram: senordavis
+-
+dribbble: senordavis
